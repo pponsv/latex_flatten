@@ -10,20 +10,15 @@ A simple Python script for flattening LaTeX files by inlining included files.
 
 ## Installation and usage
 
-1. Get a Python interpreter...
+1. Clone this repository
 
-2. Make sure that `latex-flatten.py` is in your `$PATH` or create a
-   symbolic link using
+2. Install using pip
 
-   ```bash
-   ln -s /path/to/latex-flatten.py /bin/dir
-   ```
+        pip install .
 
-3. Run
-
-    ```bash
-    latex-flatten.py main.tex output.tex
-    ```
+4. The installation provides a script, `latex_flatten`:
+        
+        latex_flatten input.tex output.tex
 
 ## License
 
