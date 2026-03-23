@@ -1,0 +1,14 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "latex_flatten"
+version = "0.1.0"
+description = "A Python library for flattening LaTeX documents. Forked from https://github.com/rekka/latex-flatten"
+authors = [{ name = "PPV", email = "" }]
+license = "UNLICENSE"
+requires-python = ">=3.8"
+
+[project.scripts]
+latex_flatten = "latex_flatten.latex_flatten:main"
