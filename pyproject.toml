@@ -6,7 +6,7 @@ build-backend = "setuptools.build_meta"
 name = "latex_flatten"
 version = "0.1.0"
 description = "A Python library for flattening LaTeX documents. Forked from https://github.com/rekka/latex-flatten"
-authors = [{ name = "PPV", email = "" }]
+authors = [{ name = "Pedro Pons-Villalonga", email = "ponsvpedro@gmail.com" }]
 license = "UNLICENSE"
 requires-python = ">=3.8"
 

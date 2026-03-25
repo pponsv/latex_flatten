@@ -54,7 +54,7 @@ def main():
     import sys
 
     if len(sys.argv) != 3:
-        sys.exit("USAGE: python3 -m latex_flatten.latex_flatten main.tex output.tex")
+        sys.exit("USAGE: latex_flatten main.tex output.tex")
 
     main_name = sys.argv[1]
     output_name = sys.argv[2]
