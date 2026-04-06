@@ -11,4 +11,7 @@ license = "UNLICENSE"
 requires-python = ">=3.8"
 
 [project.scripts]
-latex_flatten = "latex_flatten.latex_flatten:main"
+latex_flatten = "latex_flatten.latex_flatten:flatten_latex"
+
+[tool.setuptools]
+package-dir = { "latex_flatten" = "latex_flatten" }
